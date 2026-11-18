@@ -1,0 +1,294 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/animals/protos/Dog.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.006194320129308885 -0.9999620268389443 0.006129867721742846 4.702348198290975
+  position -0.014835570421993238 0.02551271090243834 4.172397974346939
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+E-puck {
+  hidden position_0_0 7058.188780240818
+  hidden position_0_1 8601.019444004138
+  hidden linearVelocity_0 1.4965537313097837e-09 5.19909444089232e-09 1.956708833480055e-09
+  hidden angularVelocity_0 -1.891026791138283e-07 1.4228010366147138e-07 -1.590969036494304e-07
+  hidden translation_1 0 0.026 0.02
+  hidden rotation_1 0 -0.9999999999999999 0 4.111505029036968
+  hidden linearVelocity_1 3.5468425227619587e-09 1.0202542880363611e-08 5.556242799209414e-09
+  hidden angularVelocity_1 -2.315556063429572 -0.0001394126985448366 0.0003681289197238671
+  hidden translation_2 0 -0.025999999999999992 0.02
+  hidden rotation_2 0 1 0 5.621943782463467
+  hidden linearVelocity_2 8.267700445807014e-10 2.118019210086904e-09 -1.7303189094888088e-09
+  hidden angularVelocity_2 -2.940492754830643 -0.0001772878430542764 0.00046746665438210974
+  translation -0.3046171959718082 -0.8622615668182925 -5.695305194991333e-05
+  rotation -0.0012133099704358028 0.0010542190150122051 -0.9999987082497577 -1.5708577463391924
+  controller "ARAIP_WITH_OPEN_CV_CONTROLLER"
+}
+Dog {
+  translation -0.38 -0.81 0
+  scale 0.2
+}
+Solid {
+  translation 0.68 -0.52 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        baseColorMap ImageTexture {
+          url [
+            "../../../Users/User/Pictures/Screenshots/Screenshot 2026-11-18 135150.png"
+          ]
+        }
+        roughness 0.5
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            -0.1 0.1 0.05
+            0.1 0.1 0.05
+            0.1 0.1 -0.05
+            -0.1 0.1 -0.05
+            -0.1 -0.1 -0.05
+            0.1 -0.1 -0.05
+            0.1 -0.1 0.05
+            -0.1 -0.1 0.05
+            -0.1 -0.1 0.05
+            0.1 -0.1 0.05
+            0.1 0.1 0.05
+            -0.1 0.1 0.05
+            0.1 -0.1 -0.05
+            -0.1 -0.1 -0.05
+            -0.1 0.1 -0.05
+            0.1 0.1 -0.05
+            -0.1 -0.1 -0.05
+            -0.1 -0.1 0.05
+            -0.1 0.1 0.05
+            -0.1 0.1 -0.05
+            0.1 -0.1 0.05
+            0.1 -0.1 -0.05
+            0.1 0.1 -0.05
+            0.1 0.1 0.05
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            1 0.5
+            0 0.5
+            0 0
+            1 0
+            0 0
+            1 0
+            1 0.5
+            0 0.5
+            0 1
+            0 0
+            1 0
+            1 1
+            0 1
+            0 0
+            1 0
+            1 1
+            1 0
+            1 0.5
+            0 0.5
+            0 0
+            0 0.5
+            0 0
+            1 0
+            1 0.5
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, -1, 4, 5, 6, 7, -1, 8, 9, 10, 11, -1, 12, 13, 14, 15, -1, 16, 17, 18, 19, -1, 20, 21, 22, 23, -1
+        ]
+        creaseAngle 1.5
+      }
+    }
+  ]
+  name "box"
+  model "box"
+  boundingObject Box {
+    size 0.2 0.2 0.1
+  }
+}
+Solid {
+  translation 0.69 0.54 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        baseColorMap ImageTexture {
+          url [
+            "../../../Users/User/Pictures/Screenshots/Screenshot 2026-11-18 142727.png"
+          ]
+        }
+        roughness 0.5
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            -0.1 0.1 0.05
+            0.1 0.1 0.05
+            0.1 0.1 -0.05
+            -0.1 0.1 -0.05
+            -0.1 -0.1 -0.05
+            0.1 -0.1 -0.05
+            0.1 -0.1 0.05
+            -0.1 -0.1 0.05
+            -0.1 -0.1 0.05
+            0.1 -0.1 0.05
+            0.1 0.1 0.05
+            -0.1 0.1 0.05
+            0.1 -0.1 -0.05
+            -0.1 -0.1 -0.05
+            -0.1 0.1 -0.05
+            0.1 0.1 -0.05
+            -0.1 -0.1 -0.05
+            -0.1 -0.1 0.05
+            -0.1 0.1 0.05
+            -0.1 0.1 -0.05
+            0.1 -0.1 0.05
+            0.1 -0.1 -0.05
+            0.1 0.1 -0.05
+            0.1 0.1 0.05
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            1 0.5
+            0 0.5
+            0 0
+            1 0
+            0 0
+            1 0
+            1 0.5
+            0 0.5
+            0 1
+            0 0
+            1 0
+            1 1
+            0 1
+            0 0
+            1 0
+            1 1
+            1 0
+            1 0.5
+            0 0.5
+            0 0
+            0 0.5
+            0 0
+            1 0
+            1 0.5
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, -1, 4, 5, 6, 7, -1, 8, 9, 10, 11, -1, 12, 13, 14, 15, -1, 16, 17, 18, 19, -1, 20, 21, 22, 23, -1
+        ]
+        creaseAngle 1.5
+      }
+    }
+  ]
+  name "box(1)"
+  model "box"
+  boundingObject Box {
+    size 0.2 0.2 0.1
+  }
+}
+Solid {
+  translation -0.15 0.57 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+        baseColorMap ImageTexture {
+          url [
+            "../../../Users/User/Pictures/Screenshots/Screenshot 2026-11-18 135417.png"
+          ]
+        }
+        roughness 0.5
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            -0.1 0.1 0.05
+            0.1 0.1 0.05
+            0.1 0.1 -0.05
+            -0.1 0.1 -0.05
+            -0.1 -0.1 -0.05
+            0.1 -0.1 -0.05
+            0.1 -0.1 0.05
+            -0.1 -0.1 0.05
+            -0.1 -0.1 0.05
+            0.1 -0.1 0.05
+            0.1 0.1 0.05
+            -0.1 0.1 0.05
+            0.1 -0.1 -0.05
+            -0.1 -0.1 -0.05
+            -0.1 0.1 -0.05
+            0.1 0.1 -0.05
+            -0.1 -0.1 -0.05
+            -0.1 -0.1 0.05
+            -0.1 0.1 0.05
+            -0.1 0.1 -0.05
+            0.1 -0.1 0.05
+            0.1 -0.1 -0.05
+            0.1 0.1 -0.05
+            0.1 0.1 0.05
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            1 0.5
+            0 0.5
+            0 0
+            1 0
+            0 0
+            1 0
+            1 0.5
+            0 0.5
+            0 1
+            0 0
+            1 0
+            1 1
+            0 1
+            0 0
+            1 0
+            1 1
+            1 0
+            1 0.5
+            0 0.5
+            0 0
+            0 0.5
+            0 0
+            1 0
+            1 0.5
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, -1, 4, 5, 6, 7, -1, 8, 9, 10, 11, -1, 12, 13, 14, 15, -1, 16, 17, 18, 19, -1, 20, 21, 22, 23, -1
+        ]
+        creaseAngle 1.5
+      }
+    }
+  ]
+  name "box(2)"
+  model "box"
+  boundingObject Box {
+    size 0.2 0.2 0.1
+  }
+}
