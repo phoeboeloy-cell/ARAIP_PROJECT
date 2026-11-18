@@ -1,0 +1,125 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.4237516107026206 0.16196776105052965 0.8911795648505487 2.4766320144161287
+  position 1.0606615135264224 -0.9125301188898696 1.5966022387107481
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.03 0 0
+}
+SolidBox {
+  translation 0.22 -0.16 0.03
+  name "box(1)"
+  size 0.05 0.05 0.05
+  appearance PBRAppearance {
+    baseColor 0 1 0
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/tagged_wall.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.29 -0.09 0.03
+  name "box(4)"
+  size 0.05 0.05 0.05
+  appearance PBRAppearance {
+    baseColor 0 1 0
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/tagged_wall.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.21 -0.43 0.03
+  name "box(2)"
+  size 0.05 0.05 0.05
+  appearance PBRAppearance {
+    baseColor 0 0 1
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/tagged_wall.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.28 -0.43 0.03
+  name "box(5)"
+  size 0.05 0.05 0.05
+  appearance PBRAppearance {
+    baseColor 0 0 1
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/tagged_wall.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.2 0.33 0.03
+  name "box(3)"
+  size 0.05 0.05 0.05
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/tagged_wall.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.1 -0.25 0.03
+  size 0.05 0.05 0.05
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/tagged_wall.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+E-puck {
+  hidden position_0_0 550.1344626249178
+  hidden position_0_1 617.750165049643
+  hidden linearVelocity_0 3.4582136425320713e-11 8.977759572796155e-11 1.5627657982501358e-10
+  hidden angularVelocity_0 1.0139115063023868e-08 -2.044474963266636e-09 -5.96857811155762e-08
+  hidden rotation_1 0 -1 0 2.785844406885836
+  hidden linearVelocity_1 1.898655195636676e-10 1.583525758424094e-09 1.2870625950599667e-10
+  hidden angularVelocity_1 -2.4503984854294902 0.26363884960971995 -0.0030641746196709346
+  hidden rotation_2 0 1 0 1.9980049460435128
+  hidden linearVelocity_2 -1.437046223155829e-10 -1.5043526896319425e-09 1.7753836293136645e-10
+  hidden angularVelocity_2 -2.754281269488942 0.2963334516020407 -0.003444178735605423
+  translation 0.4331682764640434 0.46323268700764575 -3.8594918491976354e-05
+  rotation 0.0015232767271542691 -0.0030881531397564037 0.9999940714515251 1.4636270974342869
+  controller "ARAIP_CODES"
+}
